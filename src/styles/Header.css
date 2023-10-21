@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:wght@500&display=swap");
+
+.header-container {
+  background-color: rgb(14, 172, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.tittle {
+  font-family: "Mr Dafoe", cursive;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(121, 202, 207);
+  border-radius: 12px;
+  padding: 0 10px 0 10px;
+}
+
+.navigate{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  font-family: "Mr Dafoe", cursive;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+li{
+  all: unset;
+}
